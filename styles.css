@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0f0e10; /* Darker background color */
+    color: #e87d20;
+    font-family: 'Arial', sans-serif;
+}
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 5px solid #9a2346; /* Darker border color */
+    background-color: #dfdbe7; /* Darker background color */
+    box-shadow: 0 0 10px rgba(173, 90, 90, 0.3);
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #F05941; /* Darker score text color */
+}
